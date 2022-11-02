@@ -1,0 +1,64 @@
+h1{
+   text-align:center; 
+}
+.div1{
+    border:1px solid black;
+    width: 1345px;
+}
+.div2
+{
+    border:1px solid black;
+    padding-left:570px;
+    height: 580px;
+    width:775px;
+}
+.padding
+{
+    padding-top: 150px;
+}
+.box
+{
+    height: 30px;
+    width: 260px;
+    background-color:darkcyan;
+    color:rgb(247, 239, 168);
+    border-color:5px solid darkcyan;
+    border-radius: 10px;
+    
+    
+}
+.box:hover
+{
+    background-color: green;
+}
+.font
+{
+    font-size:20px;
+    
+}
+.background
+{
+background-image: url("../images/parkingslot1.jpg");
+background-size: cover;
+}
+span{
+    font-size:22px;
+}
+.font1{
+    font-family:stencil;
+    font-size:30px
+}
+.name
+{
+    border-radius: 10px;
+    padding-left:5px;
+}
+form
+{
+    display:table;
+}
+p
+{
+    display: table-row;
+}
+

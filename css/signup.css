@@ -1,0 +1,34 @@
+.padding
+{
+    padding-left:200px;
+}
+form{
+    display: table;
+    
+}
+p
+{
+    display: table-row;
+}
+label
+{
+    display:table-cell;
+}
+input
+{
+    display:table-cell;
+
+}
+.size
+{
+    height:30px;
+    width:285px;
+    background-color: cyan;
+    color:ghostwhite;
+}
+.size1
+{
+    width:175px;
+
+}
+

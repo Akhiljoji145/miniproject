@@ -1,0 +1,67 @@
+
+.frame3
+{
+    border:1px solid black;
+}
+.h1
+{
+    text-align: center;
+}
+.float
+{
+    display: inline;
+}
+.border
+{
+   border:1px solid black;
+   float:left;
+}
+.width
+{
+    width: 200px;
+    height:600px;
+}
+.height
+{
+    height:600px;
+    width:1128px;
+}
+.border1
+{
+    border:1px solid black;
+    height:100px;
+    width:1340spx;
+}
+.float
+{
+    float:left;
+    
+    
+}
+.float1
+{
+    float:left;
+    padding-left:300px;
+    padding-top:10px;
+}
+.float3
+{
+    float:left;
+    padding-left:10px;
+    text-shadow: 1px 1px red;
+}
+.text
+{
+    text-align:center;
+    font-weight:bold;
+    text-decoration:none ;
+    font-size:20px;
+}
+.text1
+{
+    text-align:center;
+}
+.padding1
+{
+    padding-left:25%;
+}
