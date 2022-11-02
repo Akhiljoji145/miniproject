@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #center
+            {
+                text-align:center;
+            }
+          fieldset{
+            border:1px solid black;
+            
+        } 
+           
+           #img1
+           {
+            height:200px;
+            width:200px;
+            padding-left:180px;
+            padding-right:180px;
+            border:1px solid pink;
+           }
+           .float-container1 {
+            border: 3px solid pink;
+            padding: 20px;
+            
+            }
+            .float-container2 {
+            border: 3px solid ;
+            padding: 20px;
+            background-color: black;
+
+            }
+           .float-child1 {
+            width: 50%;
+            float: left;
+            padding:20px 0px 50px 0px;
+            border: 2px solid pink;
+            
+            } 
+            .float-child2 {
+            width: 50%;
+            float: left;
+            padding:20px 0px 50px 0px;
+            border: 2px solid black;
+            height:5px;
+            
+            } 
+            div {
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+             } 
+            #font
+            {
+                font-size:20px;
+            }
+            a
+            {
+                font-size: 30px;;
+            }
+            #frame
+            {
+                background-image: url("images/Untitleddesign.jpg");
+                background-size: cover;
+            }
+           .border
+           {
+               border:0;
+           }
+                
+             
+        </style>
+    </head>
+    <body>
+    <main id="center">
+    <fieldset  class="frame1" width="700" height="80">
+        <h1>Parking Slot Management</h1><br><p id="font"><b>Home page</b></p>
+    </fieldset>
+    <fieldset id="frame" >
+        <div class="float-container1 border" >
+            <div class="float-child1 border">
+            <img id="img1 border" class="center" height="200" width="200"  src="images/man-in-suit-and-tie.png">
+            </div>
+            <div class="float-child1 border">
+            <img id="img1 border" class="center" height="200" width="200" src="images/profile-icon-png-910.png">
+        </div>
+        </div>
+        <div class="float-container2 border" >
+            <div class="float-child2 border">
+                <a href="adminlogin.html">Admin</a>
+                </div>
+                <div class="float-child2 border">
+               <a href="user.html">user</a>
+            </div>  
+        </div>
+    </fieldset>
+    </main>
+    </div>
+    </body>
+    </html>
