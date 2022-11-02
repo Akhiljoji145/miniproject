@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/signup.css">
+    </head>
+    <body>
+        <div>
+        <form action="../php/userdetails.php" method="POST">
+        <div class="padding background">
+        <p>
+        <label>username:</label><input type="text" name="name" required><br><br>
+        </p>
+        <p>
+        <label>age:</label><input type="number" min="18" max="100" name="age" required><br><br>
+        </p> 
+        <p>
+        <label>email:</label><input type="email" name="email" required><br><br>
+        </p>
+        <p>
+        <label>contact no:</label><input type="text" name="contact_no" required><br><br>
+        </p>
+        <p>
+        <label>vehicle no:</label><input type="text" name="vechile_no" style="text-transform:uppercase" required><br><br>
+        </p>
+        <p>
+        <label>password:</label><input type="password" name="password" required><br><br>
+        </p>
+        <p>
+        <label>repeat password:</label><input type="password" name="re_password" required><br><br>
+        </p>
+        <div class="padding1">
+        <input class="size" type="submit" value="register">
+        </div>
+        </div>
+        </form>
+        </div>
+    </body> 
+</html>
