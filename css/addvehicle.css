@@ -1,0 +1,23 @@
+form{
+    display:table;
+}
+p
+{
+    display:table-row;
+}
+input
+{
+    display: table-cell;
+}
+label
+{
+    display:table-cell;
+}
+.header
+{
+    text-transform: uppercase;
+}
+.name
+{
+    text-transform: lowercase;
+}

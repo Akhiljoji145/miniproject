@@ -5,13 +5,9 @@ $result=mysqli_query($conn,$query);
 echo"<html>
 <head>
 <style>
-td
+table
 {
-   border:0;
-}
-tr
-{
-   border:0;
+   border-collapse:collapse;
 }
 </style>
 </head>
