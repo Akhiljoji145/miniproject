@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/addvehicle.css">
+    </head>
+    <body>
+        <div>
+        <form action="../php/addvehicle.php" method="POST">
+        <p>
+        <label>vehicle_name:</label><input class="name" type="text" name="vehi_name">
+        </p>
+        <br>
+        <p>
+        <label>vehicle_type:</label><select  name="vehi_type" >
+        <option>select vehicle type</option>
+        <option value="twowheeler">two wheeler</option>
+        <option value="fourwheeler">four wheeler</option>
+        </select>
+        </p>
+        <br>
+        <p>
+        <label>vehicle no:</label><input placeholder="enter in capital letters" type="text" name="vehi_no">
+        </p> 
+        <br>
+        <p>
+        <label>name of the owner:</label><input type="text" name="name">
+        </p>
+        <br>
+        <p>
+        <label>contact no:</label><input type="text" name="no">
+        </p>
+        <br>
+        <input class="size" type="submit"  value="add">
+        </form>
+    </div>
+    </body>
+</html>
