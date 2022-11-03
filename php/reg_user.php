@@ -2,7 +2,13 @@
 include("connection.php");
 $query="select user_id,username,age,contact_no from users";
 $result=mysqli_query($conn,$query);
-echo"<table>
+echo"<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<table>
 <tr>
 <th>user id</th>
 <th>username</th>
@@ -20,5 +26,7 @@ while($row = mysqli_fetch_row($result))
 
 
 }
-echo"</table>";
+echo"</table>
+</body>
+</html>";
 ?>
