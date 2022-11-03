@@ -9,7 +9,7 @@ $query="insert into vehicles values ('','$vehi_name','$vehi_type','$vehi_no','$o
 $result=mysqli_query($conn,$query);
 if($result==TRUE)
 {
-    echo"<img height='30' width='30' src='../images/check.png'>";
+    echo"inserted successfully";
 }
 else
 echo"not inserted";
