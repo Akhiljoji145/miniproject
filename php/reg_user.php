@@ -8,7 +8,7 @@ echo"<html>
 </style>
 </head>
 <body>
-<table>
+<table border='1'>
 <tr>
 <th>user id</th>
 <th>username</th>
