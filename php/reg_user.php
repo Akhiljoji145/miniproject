@@ -5,6 +5,14 @@ $result=mysqli_query($conn,$query);
 echo"<html>
 <head>
 <style>
+td
+{
+   border:0;
+}
+tr
+{
+   border:0;
+}
 </style>
 </head>
 <body>
