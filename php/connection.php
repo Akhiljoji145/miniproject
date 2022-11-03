@@ -4,5 +4,5 @@ if(!$conn){
     die("connection failed");
 }
 else
-echo "<img src='..\images\full-stop.png'";
+echo "connected successfully";
 ?>
