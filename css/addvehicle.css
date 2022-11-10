@@ -1,4 +1,4 @@
-form{
+.form{
     display:table;
 }
 p
@@ -20,4 +20,15 @@ label
 .name
 {
     text-transform: lowercase;
+}
+select
+{
+    display:table-cell;
+}
+.size
+{
+   height:25px;
+   width:275px; 
+   background-color: black;
+   color:white;
 }
