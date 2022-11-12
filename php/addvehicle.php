@@ -6,6 +6,9 @@ $vehi_no=$_POST['vehi_no'];
 $cust_id=$_POST['id'];
 $phno=$_POST['phno'];
 $arrtime=$_POST['time'];
+$sql="UPDATE lots
+SET lot_status='IN'
+WHERE ;
 $sql="insert into users values('','$vehi_name',$vehi_type','$vehi_no','$cust_id','$phno','$arrtime')";
 $query=mysqli_query($sql);
 if($query==TRUE)
