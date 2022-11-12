@@ -1,6 +1,6 @@
 <?php
 include("connection.php");
-$query="select user_id,username,age,contact_no from users";
+$query="select user_id,username,age,email from users";
 $result=mysqli_query($conn,$query);
 echo"<html>
 <head>
@@ -17,7 +17,8 @@ td
 <th>user id</th>
 <th>username</th>
 <th>age</th>
-<th>contact no</th>
+<th>email</th>
+
 </tr>";
 while($row = mysqli_fetch_row($result))
 {
@@ -26,6 +27,8 @@ while($row = mysqli_fetch_row($result))
    <td>$row[1]</td>
    <td>$row[2]</td>
    <td>$row[3]</td>
+   
+   
    <td><button>view</button></td>
    </tr>";
 
