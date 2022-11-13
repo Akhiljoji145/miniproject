@@ -56,7 +56,8 @@ echo"<td>$row[0]</td>
 <td>$row[7]</td>
 <td>$row[8]</td>
 <td>$row[9]</td>
-<td>$row[10]</td>";
+<td>$row[10]</td>
+<td><a href='transaction.html'>VIEW</td>";
 }
 echo"</tr>
 </table>

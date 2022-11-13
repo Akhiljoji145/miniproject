@@ -29,12 +29,12 @@ echo"<html>
         <br>
         <p>
         <label>lot no:</label>
-        <select name='lot_code'>";
+        <select class='input1' name='lot_code'>";
         while($row2=mysqli_fetch_assoc($result1))
         {
          echo"<option>";
          print_r($row2['lot_code']);
-         echo"<option>";
+         echo"</option>";
         }
         echo"</select>
         </p>
