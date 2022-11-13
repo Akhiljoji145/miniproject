@@ -49,6 +49,8 @@ echo"<html>
         <br>
         <p><label>time of arrival:</label><input type='time' name='time'></p>
         <br>
+        <p><label>date of arrival:</label><input type='date' name='date'></p>
+        <br>
         </div>
         <input class='size' type='submit'  value='add'>
         
