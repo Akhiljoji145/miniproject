@@ -18,3 +18,4 @@ if($email==$email1 && $pass==$pass1)
 else {
     echo"login not successful";
 }
+?>
