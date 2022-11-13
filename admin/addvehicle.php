@@ -9,7 +9,7 @@ echo"<html>
     </head>
     <body>
         <div>
-        <form action='../php/addvehicle1.php' method='POST'>
+        <form action='../php/addvehiclecheck.php' method='POST'>
         <div class='form'>
         <p>
         <label>vehicle name:</label><input class='name' type='text' name='vehi_name'>
