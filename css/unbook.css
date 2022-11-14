@@ -1,0 +1,21 @@
+.form
+{
+    display:table;
+}
+p
+{
+    display: table-row;
+}
+label{
+    display: table-cell;
+}
+input
+{
+    display:table-cell;
+}
+.input
+{
+   width:300px;
+   background-color:black;
+   color:white;
+}

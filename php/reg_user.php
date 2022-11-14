@@ -27,12 +27,7 @@ while($row = mysqli_fetch_row($result))
    <td>$row[1]</td>
    <td>$row[2]</td>
    <td>$row[3]</td>
-   
-   
-   <td><button>view</button></td>
    </tr>";
-
-
 }
 echo"</table>
 </body>
