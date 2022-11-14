@@ -1,6 +1,6 @@
 <?php
 include("../php/connection.php");
-$sql="select users.username,vehicles.* from users,vehicles where users.user_id=vehicles.user_id";
+$sql="SELECT users.username,vehicles.* FROM users , vehicles WHERE users.user_id=vehicles.user_id AND status='IN'";
 $query=mysqli_query($conn,$sql);
 echo"
 <html>
