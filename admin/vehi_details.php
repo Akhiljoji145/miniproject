@@ -8,13 +8,12 @@ echo"
 <style>
 table
 {
-    border-collapse:collapse;
+    
     width:1000px;
     
 td,tr
 {
     border:0;
-    border-right:1px solid black;
     height:20px;
     width:30px;
     text-align:center;
@@ -22,13 +21,9 @@ td,tr
 }
 th
 {
-    border:1px solid black;
+    border:0;
     width:30px;
     
-}
-
-{
-    text-align:center;
 }
 </style>
 </head>
@@ -61,7 +56,7 @@ echo"<td>$row[0]</td>
 <td>$row[8]</td>
 <td>$row[9]</td>
 <td>$row[10]</td>
-<td><a href='transaction.html'>VIEW</td>";
+<td class='a'><a href='transaction.html'><button>VIEW</button></a></td>";
 }
 echo"</tr>
 </table>
