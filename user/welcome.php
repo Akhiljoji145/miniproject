@@ -11,19 +11,28 @@ if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
     <style>
      .header{
       border:1px solid black;
-      height:50px;
+      height:60px;
       width:1350px;
-
-     }
+      padding-top:20px;
+      }
      .user{
-       font-size:20px;
-       padding-top:30px;
+      font-size:25px;
+      font-family:stencil;
+      padding-left:50px;
+       
+     }
+     .padding
+     {
+      font-size:25px;
+      padding-left:250px;
+      text-shadow:1px 1px 2px black;
+      color:red;
      }
     </style>
   </head>
     <body>
         <div class="header">
-        <span class="user">USER</span>
+        <span class="user"><b>USER</b></span><span class="padding"><b>ONLINE VEHICLE PARKING MANAGEMENT SYSTEM</b></span>
         </div>
   </body>
   </html>

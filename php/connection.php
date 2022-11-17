@@ -4,5 +4,4 @@ if(!$conn){
     die("connection failed");
 }
 else
-echo "connected successfully";
 ?>
