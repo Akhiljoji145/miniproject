@@ -16,7 +16,7 @@ if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
         <div class="float"><h1>USER</h1></div>
         <div class="float1"><img  height="60" width="60" src="../images/LOGO.png"></div>
         <div class="float3"><h1>Online Vehicle Parking Management System</h1></div>
-        <div class="float4"><h1>User id:<?php echo $_SESSION['user_id']?></h1></div>
+        <div class="float4">User id:<?php echo $_SESSION['user_id']?></div>
     </div>
       <div class="float">
        <div class="border width padding"><br>
