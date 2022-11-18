@@ -41,13 +41,13 @@
 .float1
 {
     float:left;
-    padding-left:300px;
-    padding-top:10px;
+    padding-left:250px;
+    padding-top:5px;
 }
 .float3
 {
     float:left;
-    padding-left:10px;
+    padding-left:5px;
     text-shadow: 1px 1px red;
 }
 .text
