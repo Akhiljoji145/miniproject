@@ -3,14 +3,14 @@ h1{
 }
 .div1{
     border:1px solid black;
-    width: 1345px;
+    width:1220px;
 }
 .div2
 {
     border:1px solid black;
     padding-left:570px;
-    height: 580px;
-    width:775px;
+    height:500px;
+    width:1220px;
 }
 .padding
 {
