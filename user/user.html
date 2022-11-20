@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            ul 
+            {
+              list-style-type: none;
+              height: 20px;
+              width:1330px;
+              margin: 1px solid black ;
+              
+            }
+            li
+            {
+                float:left;
+                padding-left:10px;
+                border:1px solid white;
+                height:20px;
+                width:100px;
+            }
+            .border-left
+            {
+              border-left: 0;
+            }
+            .bg
+            {
+                border:1px solid black;
+                width:1345px;
+            }
+            .float-right
+            {
+                float:right;
+                padding-right: 30px;
+                
+            }
+            #frame3
+            {
+              border:1px solid black;
+              width:1345px;
+              height:568px; 
+            }
+            .a
+            {
+                border:1px solid black;
+                border-radius: 14px;
+                background-color: darkblue;
+                color:white;
+                text-decoration: none;
+                padding-left: 10px;
+                padding-right:10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="bg">
+        <ul >
+            <li><a href="../home.html">Home</a></li>
+            <li class="border-left"><a href="">Contact</a></li>
+            <li class="border-left"><a href="">About</a></li>
+            <li class="float-right"><a class="a" href="../user/signup.html" target="frame3">Sign Up</a></li>
+            <li class="float-right"><a  class="a" href="../user/siginform.php" target="frame3">Sign In</a></li>
+        </ul>
+        </nav>
+        <iframe id="frame3" name="frame3"></iframe>
+            
+    </body>
+</html>

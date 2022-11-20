@@ -28,26 +28,35 @@ if(isset($_POST['submit']))
             
             .submit
             {
-                height:25px;
-                width: 245px;
-                background-color: black;
+                height:30px;
+                width: 262px;
+                background-color: blue;
                 color:azure;
             }
-            h1
+            .submit:hover
             {
-                text-align: center;
+                background-color:green;
+            }
+            span
+            {
+                
+                font-size:25px;
+            }
+            p
+            {
+                text-align:center;
             }
             .border
             {
-                border:1px solid black;
+                border:1px solid white;
             }
             .height
             {
-                height:550px;   
+                height:470px;   
             }
             .width
             {
-                width:1330px;
+                width:1315px;
             }
             .padding
             {
@@ -60,21 +69,31 @@ if(isset($_POST['submit']))
                 background-size: 100% 100%;
             }
             label{
-                color:white;
+                color:red;
+                font-size:18px;
             }
+            .bg1
+            {
+                background-color:black;
+                height:100px;
+                width:262px;
+            }
+
         </style>
     </head>
     <body>
         <div class="border width">
-            <h1>User Login</h1>
+            <span><p><b>User Login<b><p></span>
         </div>
         <div class="border height width bg">
         <br>
         <div class="padding">
         <form method="POST">
-        <label>username:</label><input type="email" autocomplete="off" name="email"><br><br>
-        <label>password:</label><input type="password" autocomplete="off" name="pass"><br><br>
+        <div class="bg1">
+        <label>Username:</label><input type="email" autocomplete="off" name="email"><br><br>
+        <label>Password:</label> <input type="password" autocomplete="off" name="pass"><br><br>
         <input class="submit" type="submit" value="login" name="submit">
+        </div>
         </form>
         </div>
         </div>
