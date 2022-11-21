@@ -21,6 +21,10 @@ ul {
   a{
     font-size:25px;
   }
+  .a
+  {
+    border:1px solid black;
+  }
   img
   {
     padding-bottom:10px;
@@ -34,6 +38,7 @@ ul {
   .float-right
   {
     float:right;
+    
   }
   iframe{
     width:1335px;
