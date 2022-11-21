@@ -5,7 +5,8 @@ include('../php/connection.php');
 
 if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
   header('location:../user/siginform.php');
-  } else{?>
+  } 
+  else{?>
     
     <html>
     <head>
@@ -19,9 +20,9 @@ if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
     <body>
       <nav>
         <ul>
-          <li><a href='viewvehicle.php'></a></li>
+          <li><a href="viewvehicle.php">View Vehicle</a></li>
   </ul>
   </nav>
   </body>
   </html>
-  <?php}?>
+<?php }?>

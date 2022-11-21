@@ -11,7 +11,7 @@ $result=mysqli_query($conn,$query);
 if($result==TRUE)
 {
     echo"inserted successfully";
-    $sql1="UPDATE `lots` SET `user_id`='0',`lot_status`='OUT' WHERE user_id=9";
+    $sql1="UPDATE `lots` SET `user_id`='0',`lot_status`='OUT' WHERE user_id='$user_id'";
     $result1=mysqli_query($conn,$sql1);
     if($result1==TRUE)
     {
