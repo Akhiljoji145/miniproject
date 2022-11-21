@@ -1,18 +1,79 @@
 <html>
     <head>
-        <link rel="stylesheet" href="../css/adminfront.css">
+        <style>
+        ul 
+        {
+            list-style-type: none;
+        }
+        li
+        {
+        padding-top:20px;
+        padding-bottom:10px;
+        padding-left: 20px;
+        float:left;
+        
+        }
+        nav
+        {
+        border:1px solid black;
+         width:1335px;
+        float:left;
+        }
+        a
+        {
+        font-size:25px;
+        text-decoration: none;
+        }
+          
+        img
+        {
+        padding-bottom:10px;
+        }
+        .float-left
+        {
+        float:left;
+        padding-top:10px;
+        padding-left:5px;
+        }
+        .a
+        {
+            border:1px solid  black;
+            padding:10 10 10 10;
+            background-color: aquamarine;
+            border-radius: 22px;
+            
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        iframe{
+        width:1335px;
+        border-top:0;
+        height:720px;
+        border:1px solid black;
+        }
+        .border
+        {
+        border:0;
+        }
+        .float-right
+        {
+            float:right;
+            padding-right:20px;
+        }
+        </style>
     </head>
     <body>
         <nav>
         <ul>
             <span class="float-left"><img height="50" width="50" src="../images/LOGO.png"></span>
-            <li><a href="../home.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li class="border"><a href="../home.html">Home</a></li>
+            <li class="border"><a href="#">About Us</a></li>
+            <li class="border"><a href="#">Contact Us</a></li>
             <li class="float-right"><a class="a" href="adminlogin.html" target="frame3">Sign In</a></li>
         </ul>
     </nav>
-        <iframe name="frame3">
+        <iframe name="frame3" >
 
         </iframe>
     
