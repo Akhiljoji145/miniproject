@@ -15,7 +15,7 @@ ul {
   nav
   {
     border:1px solid black;
-    width:1345px;
+    width:1335px;
     float:left;
   }
   a{
@@ -36,7 +36,7 @@ ul {
     float:right;
   }
   iframe{
-    width:1345px;
+    width:1335px;
     border:1px solid black;
     border-top:0;
     height:720px;

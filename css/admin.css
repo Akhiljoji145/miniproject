@@ -3,18 +3,19 @@ h1{
 }
 .div1{
     border:1px solid black;
-    width:1220px;
+    width:1315px;
 }
 .div2
 {
     border:1px solid black;
-    padding-left:570px;
-    height:500px;
-    width:1220px;
+    padding-left:px;
+    height:580px;
+    width:1315px;
 }
 .padding
 {
     padding-top: 150px;
+    padding-left: 550px;
 }
 .box
 {
