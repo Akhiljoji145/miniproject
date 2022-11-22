@@ -1,16 +1,17 @@
 <?php
 session_start();
-error_reporting(0);
+
 include('../php/connection.php');
-error_reporting(0);
+
 if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
     header('location:../user/siginform.php');
 } 
 else{ 
 $id=$_SESSION['user_id'];
-$sql="SELECT users.username,vehicles.* FROM users , vehicles WHERE users.user_id=vehicles.user_id;";
+$sql="SELECT users.username,vehicles.* FROM users , vehicles WHERE users.user_id='$id' AND vehicles.user_id='$id' AND status='IN'";
 $result=mysqli_query($conn,$sql);
-if(result==TRUE)
+
+if($result==TRUE)
 {
 echo"
 <table border='1'>
@@ -27,10 +28,10 @@ echo"
 <th>date of arr</th>
 <th>status</th>
 </tr>
-<tr>";
+";
 while($row = mysqli_fetch_row($result))
 {
-    echo"
+    echo"<tr>
     <td>$row[0]</td>
     <td>$row[1]</td>
     <td>$row[2]</td>
@@ -42,11 +43,12 @@ while($row = mysqli_fetch_row($result))
     <td>$row[8]</td>
     <td>$row[9]</td>
     <td>$row[10]</td>
+    </tr>
    ";
     
 }
 echo"
-</tr>
+
 </table>";
 }
 else {
