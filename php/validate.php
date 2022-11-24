@@ -13,7 +13,7 @@ if($admin==$admin1 && $pass==$pass1)
     {
     session_start();
     $_SESSION['username']=session_id();
-    header("location:../admin/welcome.html");
+    header("location:../admin/Welcome.html");
 }
 else {
     echo"login not successful";

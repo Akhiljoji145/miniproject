@@ -1,53 +1,9 @@
 <?php
 include("../php/connection.php");
-echo"<html>
-    <style>
-        .padding-left
-        {
-            padding-left: 30px;
-        }
-        label{
-            font-size: 20px;
-        }
-        form{
-            border:1px solid black;
-            width:100%;
-        }
-        .padding-left1
-        {
-          padding-left: 100px;
-          
-        }
-        .padding-left2
-        {
-          padding-left: 30px;
-        }
-        .input
-        {
-            height:30px;
-            width: 200px;
-        }
-    </style>
-    <body>
-        <form method='POST' action=''>
-        <br>
-        <span class='padding-left1'>
-        <label>Search:</label>
-        <label class='padding-left'>From:</label>
-        <span class='padding-left2'><input class='input'  type='date' name='fr_date'></span>
-        <label class='padding-left'>To:</label>
-        <span class='padding-left2'><input class='input'  type='date' name='to_date'></span>
-        <span class='padding-left2'><input class='input'  type='submit' value='Submit' name='submit'></span></span>
-        <br><br>
-        </form>
-</body>
-</html>";
-if(isset($_POST['submit']))
-{
 $fr_date=$_POST['fr_date'];
 $to_date=$_POST['to_date'];
 $sql="SELECT * FROM `transaction` WHERE date_of_trans between '$fr_date' AND '$to_date'";
-$result=mysqli_query($result);
+$result=mysqli_query($conn,$sql);
 if($result==TRUE)
 {
 echo"
