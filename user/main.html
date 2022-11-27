@@ -3,41 +3,31 @@
         <style>
             ul 
             {
-              list-style-type: none;
-              height: 20px;
-              width:1330px;
-              margin: 1px solid black ;
-              
+            list-style-type: none;
+            padding-top:20px;
+            padding-bottom:20px;
             }
             li
             {
                 float:left;
-                padding-left:10px;
+                
                 border:1px solid white;
                 height:20px;
                 width:100px;
-                font-size:23px;
+                font-size:26px;
             }
-            .border-left
-            {
-              border-left: 0;
-            }
+            
             .bg
             {
                 border:1px solid black;
                 width:1345px;
             }
-            .float-right
-            {
-                float:right;
-                padding-right: 30px;
-                
-            }
+           
             #frame3
             {
               border:1px solid black;
               width:1345px;
-              height:568px; 
+              height:548px; 
             }
             .a
             {
@@ -58,16 +48,34 @@
             {
                 text-decoration: underline;
             }
+             nav
+        {
+        border:1px solid black;
+        
+        width:800px;
+        float:left;
+        padding-bottom:20px;
+        }
+        .float-right
+        {
+            padding-left: 760px;
+        }
+        .float-right1
+        {
+            padding-left: 20px;
+        }
         </style>
     </head>
     <body>
         <nav class="bg">
         <ul >
-            <li><a href="../home.html">Home</a></li>
+            
+            <li class="border-left"><a href="../home.html">Home</a></li>
             <li class="border-left"><a href="">Contact</a></li>
             <li class="border-left"><a href="">About</a></li>
-            <li class="float-right"><a class="a" href="../user/signup.html" target="frame3">Sign Up</a></li>
-            <li class="float-right"><a  class="a" href="../user/siginform.php" target="frame3">Sign In</a></li>
+            <li class="float-right"><a  class="a" href="../user/Signinform.php" target="frame3">Sign In</a></li>
+            <li  class="float-right1"><a class="a" href="../user/signup.html" target="frame3">Sign Up</a></li>
+            
         </ul>
         </nav>
         <iframe id="frame3" name="frame3"></iframe>

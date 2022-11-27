@@ -1,7 +1,4 @@
-.padding
-{
-    padding-left:200px;
-}
+
 form{
     display: table;
     
@@ -19,10 +16,14 @@ input
     display:table-cell;
 
 }
+label
+{
+    font-size:20px;
+}
 .size
 {
     height:30px;
-    width:285px;
+    width:310px;
     background-color: cyan;
     color:ghostwhite;
 }
@@ -31,4 +32,16 @@ input
     width:175px;
 
 }
-
+form
+{
+    border: 1px solid black;
+    height:420px;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+.padding1
+{
+    padding-left:500px;
+}

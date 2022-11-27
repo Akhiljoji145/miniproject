@@ -3,8 +3,9 @@
         <link rel="stylesheet" href="../css/signup.css">
     </head>
     <body>
-        <div>
-        <form action="../php/userdetails.php" method="POST">
+        <div class="padding1">
+        <form action="../php/userdetails.php" method="POST" name="form" onsubmit="return validateForm()">
+            <h3 align="center">Registration form</h3>
         <div class="padding background">
         <p>
         <label>username:</label><input type="text" name="name" required><br><br>

@@ -19,6 +19,7 @@ if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
   {
     padding-top:10px;
     padding-bottom:10px;
+    font-size: 18px;
     
   }
         nav
@@ -39,6 +40,7 @@ if (strlen($_SESSION['email']==0 && $_SESSION['user_id']==0)) {
         a
         {
           text-decoration:none;
+
         }
         a:hover
         {

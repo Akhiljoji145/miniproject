@@ -22,6 +22,7 @@ echo"<tr>
 <td>$row[4]</td>
 <td>$row[5]</td>
 <td>$row[6]</td>
+
 </tr>";
 }
 echo"

@@ -52,7 +52,7 @@ if(isset($_POST['submit']))
             }
             .height
             {
-                height:470px;   
+                height:450px;   
             }
             .width
             {
@@ -80,6 +80,21 @@ if(isset($_POST['submit']))
             }
 
         </style>
+        <script>
+         function validateForm() {
+         let x = document.forms["form"]["email"].value;
+         let y = document.forms["form"]["pass"].value;
+         if (x == "") {
+         alert("email must be filled out");
+         return false;
+        }
+        if (y == "")
+        {
+            alert("please enter ")
+        }
+        
+    }
+        </script>
     </head>
     <body>
         <div class="border width">
@@ -88,10 +103,10 @@ if(isset($_POST['submit']))
         <div class="border height width bg">
         <br>
         <div class="padding">
-        <form method="POST">
+        <form method="POST" name="form" onsubmit="return validateForm()">
         <div class="bg1">
-        <label>Username:</label><input type="email" autocomplete="off" name="email"><br><br>
-        <label>Password:</label> <input type="password" autocomplete="off" name="pass"><br><br>
+        <label>Username:</label><input type="email" autocomplete="off" name="email" id="email"><br><br>
+        <label>Password:</label> <input type="password" autocomplete="off" name="pass" id="pass"><br><br>
         <input class="submit" type="submit" value="login" name="submit">
         </div>
         </form>
