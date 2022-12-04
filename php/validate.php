@@ -11,9 +11,8 @@ while($row=mysqli_fetch_assoc($result))
 }
 if($admin==$admin1 && $pass==$pass1)
     {
-    session_start();
-    $_SESSION['username']=session_id();
-    header("location:../admin/Welcome.html");
+    
+    header("location:../admin/welcome.html");
 }
 else {
     echo"login not successful";
