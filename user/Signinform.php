@@ -37,11 +37,7 @@ if(isset($_POST['submit']))
             {
                 background-color:green;
             }
-            .bg
-            {
-                background-image: url("../images/parking.jpg");
-                background-size: 100% 100%;
-            }
+            
             label{
                 color:red;
                 font-size:18px;
@@ -80,7 +76,7 @@ if(isset($_POST['submit']))
             {
                border:1px solid black;
                height:520px;
-               background-image: url("../images/parking.jpg");
+               background-image: url("../images/parking1.jpg");
                background-size: 100% 100%;
             }
         </style>

@@ -1,22 +1,29 @@
 <?php
-include("connection.php");
-$admin=$_POST['name'];
-$pass=$_POST['pass'];
-$query="SELECT `ad_name`, `ad_password` FROM `admin` WHERE ad_name='$admin' and ad_password='$pass'";
-$result=mysqli_query($conn,$query);
-while($row=mysqli_fetch_assoc($result))
-{
-    $admin1=$row['ad_name'];
-    $pass1=$row['ad_password'];
-}
-if($admin==$admin1 && $pass==$pass1)
+include('connection.php');
+if(isset($_POST['submit']))
+  {
+    $admin=$_POST['name'];
+    $password=$_POST['pass'];
+    $sql="SELECT `ad_name`, `ad_password` FROM `admin` WHERE ad_name='$admin' AND ad_password='$password'";
+    $query=mysqli_query($conn,$sql);
+    $result=mysqli_fetch_array($query);
+    if($result>0){
+      header("location:../admin/welcome.html");
+    }
+    else
     {
+      function function_alert($message) {
+      
     
-    header("location:../admin/welcome.html");
+    echo "<script>alert('$message');</script>";
 }
-else {
-    echo"login not successful";
+  
+  
+// Function call
+function_alert("username or password is incorrect");
+  
+      header("location:../admin/adminlogin.html");
+
+    }
 }
-
-
 ?>

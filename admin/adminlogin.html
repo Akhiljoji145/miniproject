@@ -6,19 +6,16 @@
         <meta name="author" content="akhil">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-        h1{
-            text-align:center; 
-         }
-         .div1{
-             border:1px solid black;
-             width:1315px;
-         }
+        
          .div2
          {
              border:1px solid black;
              padding-left:px;
-             height:510px;
-             width:1318px;
+             height:540px;
+             width:1315px;
+             background-image: url("../images/parking1.jpg");
+             background-size:110% 145%;
+
          }
          .padding
          {
@@ -39,7 +36,7 @@
              color:rgb(247, 239, 168);
              border-color:5px solid darkcyan;
              border-radius: 10px;
-              box-shadow: 1px 2px black;
+            box-shadow: 1px 2px lightblue;
              
          }
          .box:hover
@@ -51,11 +48,7 @@
              font-size:20px;
              
          }
-         .background
-         {
-         background-image: url("../images/parkingslot1.jpg");
-         background-size: cover;
-         }
+         
          span{
              font-size:22px;
          }
@@ -79,27 +72,36 @@
          label
          {
             display: table-cell;
+            color:red;
          }
          input
          {
             display:table-cell;
+            box-shadow: 1px 1px lightblue;
          }
+         form
+         {
+            height:120px;
+            width:295px;
+            border:1px transparent black;
+            background-color: black;
+         }
+
+        
          </style>
     </head>
     <body>
-       
-        <div class="div2 background">
+        
+        <div class="div2">
             <div class="padding">
-            <form name="form" action="../php/validate.php" method="POST">
+            <form name="form" action="../php/Validate.php" method="POST">
             <div class="div">
             <p><label class="font" ><b>Username:</b></label><input class="input name" type="text" name="name" ><br><br></p>
             <p><label class="font"><b>Password:</b></label><input class="input name" type="password" name="pass"><br><br></p>
             </div>
-            <input class="box" type="submit" value="Login" >
+            <input class="box" type="submit" name="submit" value="Login" >
             </form>
             </div>
-            
         </div>
-   
     </body>
 </html>
