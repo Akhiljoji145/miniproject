@@ -5,10 +5,11 @@ $result1=mysqli_query($conn,$sql1);
 
 echo"<html>
     <head>
-        <link rel='stylesheet' href='../css/addvehicle.css'>
+        <link rel='stylesheet' href='../css/Addvehicle.css'>
     </head>
     <body>
-        <div>
+    <div class='border'>
+        
         <form action='../php/addvehiclecheck.php' method='POST'>
         <div class='form'>
         <p>
@@ -53,9 +54,8 @@ echo"<html>
         <br>
         </div>
         <input class='size' type='submit'  value='add'>
-        
     </form>
-    </div>
+    <div>
     </body>
 </html>";
 ?>
